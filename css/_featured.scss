@@ -1,0 +1,62 @@
+.featured{
+    height: 70vh;
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.842),rgba(37, 37, 37, 0.877)),
+    url('../img/hero2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+
+   
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        .img__feature{
+            position: relative;
+            transition: all 0.25s ease-in-out;
+            cursor: pointer;
+            
+            &:hover:after{
+                content: "";
+                position: absolute;
+                display: block;
+                bottom: 0;
+                width: 100%;
+                height: 50px;
+                background-color: #151616ea;
+                
+            }
+            a{
+                text-decoration: none;
+                font-size: 1.3rem;
+                color: rgb(255, 175, 2);
+              
+            }
+            span{
+                display: none;
+            }
+          a:hover span, &:hover span{
+              display: block;
+              position: absolute;
+              bottom: 4px;
+              left: 14px;
+              z-index: 999;
+          }
+        }
+
+        h2#title{
+         
+           &::after{
+
+               content: "";
+               margin-top: 15px;
+               display: block;
+               width: 100px;
+               height: 3px;
+               background-color: rgb(255, 174, 0);
+           }
+        }
+    
+}

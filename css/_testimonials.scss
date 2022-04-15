@@ -1,0 +1,42 @@
+.testimonials {
+  padding: 122px 0;
+
+  &__wrapper {
+    h2 {
+      font-size: 1.7rem;
+      margin-bottom: 2rem;
+      &::after {
+        content: "";
+        display: block;
+        width: 52px;
+        height: 10px;
+        border-bottom: 3px solid #ff8800;
+      }
+    }
+    .description {
+      padding: 0.5rem;
+
+      margin-top: 0;
+      margin-bottom: 1rem;
+      line-height: 1.7;
+      color: #ffffffa8;
+    }
+    .person{
+        article{
+            float: right;
+            text-align: center;
+            img{
+                border-radius: 50%;
+                height: 80px;
+                width: 80px;
+            }
+            cite{
+                color: #ffffffa8;
+                line-height: 3;
+                font-size: 0.9rem;
+            }
+        }
+    
+    }
+  }
+}

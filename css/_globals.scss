@@ -1,0 +1,91 @@
+$color-primary: #060512;
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+*::after,*::before{
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #060512 !important;
+}
+.bg-custom{
+    background-color: $color-primary;
+  
+}
+h2{
+    color: #ffffffd9;
+}
+
+ul{
+    list-style: none;
+
+}
+
+    
+
+
+// .navbar{
+//     .navbar-icons{
+//         a{
+//             .fa-brands, .fab {
+//                 font-family: "Font Awesome 6 Brands";
+//                 font-weight: 400;
+//                 color: #fff;
+//                 margin-right: 1rem;
+//                 font-size: 1.2rem;
+//                 background: #444;
+//                 /* padding: 0.2rem; */
+//                 width: 30px;
+//                 height: 30px;
+//                 padding: 5px;
+//                 text-align: center;
+              
+//         }
+//     }
+//     }
+// }
+
+
+a{
+    .fa-brands, .fab {
+        font-family: "Font Awesome 6 Brands";
+        font-weight: 400;
+        color: #fff;
+        margin-right: 1rem;
+        font-size: 1.2rem;
+        background: #444;
+        /* padding: 0.2rem; */
+        width: 30px;
+        height: 30px;
+        padding: 5px;
+        text-align: center;
+      
+}
+}
+
+
+
+a{
+    text-decoration: none;
+    color: inherit;
+    transition: color 0.23s ease;
+    &:hover{
+        color: #ff8800;
+    }
+    .fa-brands, .fab {
+        transition: 0.23s ease-in-out;
+        &:hover{
+            background-color: #ff8800;
+
+        }
+    }
+}

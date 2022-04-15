@@ -1,0 +1,56 @@
+.contactus{
+    // margin-top: 9rem;
+    padding: 120px 0;
+    // color: #ffffffa8;
+    background-color: #fff;
+    
+    h2{
+        margin-bottom: 2rem;
+        color: #060512;
+        &::after {
+            content: "";
+            display: block;
+            width: 52px;
+            height: 10px;
+            border-bottom: 3px solid #ff8800;
+          }
+    }
+    .btn-warning {
+        color: #000;
+        background-color: #ff8800 !important;
+        border-color: #ff8800;
+    }
+    .form-control {
+        background: #fff0;
+        color: #1a1919;
+        &:active{
+            border-color: #ff8800;
+        }
+        &:focus {
+            border-color: #ff8800;
+            box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(255, 136, 0, 0.6);
+          }
+    }
+
+    &__wrapper{
+        .contact__left{
+            max-width: 50%;
+            margin: 0 auto;
+        }
+        span{
+            display: block;
+            margin-bottom: 1rem;
+        }
+    }
+} 
+
+@media screen and (max-width: 968px) {
+    .contactus{
+        &__wrapper{
+            .contact__left{
+                max-width: 80%;
+                margin: 0 auto;
+            }
+    }
+    }
+}

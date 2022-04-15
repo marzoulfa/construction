@@ -1,0 +1,59 @@
+.footer{
+    padding: 120px 0 50px 0;
+    background-color: #1a1926;
+    color: #ffffffa8;
+    &__content {
+        h2{
+            font-size: 1.7rem;
+            margin-bottom: 2rem;
+            &::after {
+                content: "";
+                display: block;
+                width: 52px;
+                height: 10px;
+                border-bottom: 3px solid #ff8800;
+              }
+        }
+ .row{
+     display: flex !important;
+ }
+        // a{
+        //     text-decoration: none;
+        //     color: inherit;
+        //     transition: color 0.23s ease;
+        //     &:hover{
+        //         color: #ff8800;
+        //     }
+        //     .fa-brands, .fab {
+        //         transition: 0.23s ease-in-out;
+        //         &:hover{
+        //             background-color: #ff8800;
+
+        //         }
+        //     }
+        // }
+    }
+}
+
+.scrolltop{
+
+    .fas.fa-chevron-up{
+    color: #fff;
+    background: #383837;
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    bottom: 55px;
+    right: 10px;
+    font-weight: 900;
+    font-size: 1.7rem;
+    text-align: center;
+    line-height: 2;
+    border-radius: 9px;
+    cursor: pointer;
+    transition: background-color 0.24s ease;
+    &:hover{
+      background-color: #ff8800;
+    }
+}
+}

@@ -1,0 +1,27 @@
+.header{
+    background-color: #fff;
+    &__wrapper{
+        .logo{
+         width: 200px;
+         height: 200px;
+        }
+        .row{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .contacts{
+            display: flex;
+            justify-content: space-evenly;
+            .icon{
+                display: flex;
+                align-items: center;
+                gap: 0.3rem;
+
+                .fas{
+                    font-size: 1.4rem;
+                }
+            }
+        }
+    }
+}

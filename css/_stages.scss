@@ -1,0 +1,45 @@
+.stages{
+    margin-top: 10rem;
+    padding: 5rem 0;
+    background-color: #1a1926;
+    text-align: center;
+
+    &__wrapper{
+        .title{
+            font-size: 1rem;
+            color: rgba(255, 255, 255, 0.534);
+            margin-bottom: 2rem;
+        }
+        h2{
+            margin-bottom: 2rem;
+        }
+        h2,h4{
+            font-weight: normal;
+            color: #fff;
+        }
+
+        p{
+            color: rgba(255, 255, 255, 0.521);
+        }
+
+        span{
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            color: #ff8800;
+            font-size: 1rem;
+            display: block;
+            border-color: #ff8800;
+            border: 3px solid;
+            margin: auto;
+            text-align: center;
+            line-height: 2.5;
+            margin-bottom: 2rem;
+        }
+
+        .col-md-3:hover span{
+            background-color: #ff8800;
+            color: #fff;
+        }
+    }
+}
